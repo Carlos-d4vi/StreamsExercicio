@@ -4,7 +4,6 @@ import Domain.Menu;
 import Domain.Pessoa;
 
 import java.util.ArrayList;
-import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
@@ -12,7 +11,7 @@ public class Main {
 
         Menu menu = new Menu();
 
-        menu.Show();
+        menu.Run();
 
     }
 
