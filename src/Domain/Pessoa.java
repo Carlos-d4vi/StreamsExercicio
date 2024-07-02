@@ -10,4 +10,16 @@ public class Pessoa {
     String name;
     String sexo;
     Integer idade;
+
+    public String getName() {
+        return name;
+    }
+
+    public String getSexo() {
+        return sexo;
+    }
+
+    public Integer getIdade() {
+        return idade;
+    }
 }
